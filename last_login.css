@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/*Background color*/
+.wrapper{
+    background-image: url("assets/approve-6-opaque50.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 0 20px 0 20px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*right side of the image*/
+.row{
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+
+}
+/*the image*/
+.side-image{
+    background-image: url("assets/anytime.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 0 0 10px;
+}
+img{
+    width: 35px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+/*Written text in the image:*/
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text p{
+    color: #fff;
+    font-size: 18px;
+}
+i{
+    font-weight: 400;
+    font-size: 15px;
+/*End of Written text in the image*/
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.input-box{
+    width: 330px;
+    box-sizing: border-box;
+}
+.input-box header{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+    font-size: 30px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0 10px 0 10px;
+}
+/*color of text when typing*/
+.input{
+    height: 45px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    outline: none;
+    margin-bottom: 20px;
+    color: #40414a;
+    font-size: 20px;
+/*Note: Literally the typed input color*/
+}
+/*Animation*/
+.input-box .input-field label{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: .4s;
+}
+.input-field .input:focus ~ label{
+    top: -10px;
+    font-size: 13px;
+}
+.input-field .input:valid ~ label{
+    top: -10px;
+    font-size: 13px;
+    color: #5d5076;
+/*NOTE: Only accepts hex code color system
+Another note: Changes the color of username and password when animating*/
+}
+.input-field .input:focus, .input-field .input:valid{
+    border-bottom: 1px solid #743ae1;
+/*NOTE: Only accepts hex code color system*/
+}
+
+.submit{
+    border: none;
+    outline: none;
+    height: 45px;
+    color: #fff;
+    background: #000000;
+    border-radius: 5px;
+    transition: .4s;
+}
+.submit:hover{
+    background: #6245BB;
+    color: #fff;
+}
+/* .error{
+    background: #F2DEDE;
+    color: A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+} */

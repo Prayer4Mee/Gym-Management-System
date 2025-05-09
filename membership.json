@@ -1,0 +1,20 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"gymdata"},
+{"type":"table","name":"membership","database":"gymdata","data":
+[
+{"no":"4","membership_id":"G-0000000004","first_name":"baba","last_name":"dada","middle_initial":"k","mobile_number":"2147483647","date_of_birth":"2023-05-04","email":"sample@gmail.com","street":"#74 mamihan","brgy":"115","city":"malamig","gender":"male","joining_date":"2023-05-22","fees":"123"},
+{"no":"5","membership_id":"G-0000000005","first_name":"extra","last_name":"mo","middle_initial":"x","mobile_number":"2147483647","date_of_birth":"1997-12-18","email":"asdadsa@gmail.com","street":"love","brgy":"115","city":"loving","gender":"male","joining_date":"2023-05-19","fees":"123123"},
+{"no":"6","membership_id":"G-0000000006","first_name":"loves","last_name":"ko yan","middle_initial":"x","mobile_number":"2147483647","date_of_birth":"2222-12-18","email":"asdasdasda@gmail.com","street":"love","brgy":"115","city":"loving","gender":"male","joining_date":"2023-05-22","fees":"123123"},
+{"no":"7","membership_id":"G-0000000007","first_name":"ako","last_name":"yan","middle_initial":"x","mobile_number":"2147483647","date_of_birth":"2222-12-18","email":"asd@gmail.com","street":"love","brgy":"115","city":"loving","gender":"male","joining_date":"2023-05-22","fees":"123123"},
+{"no":"8","membership_id":"G-0000000008","first_name":"ikaw","last_name":"yan","middle_initial":"x","mobile_number":"2147483647","date_of_birth":"2013-12-18","email":"das@gmail.com","street":"love","brgy":"115","city":"loving","gender":"male","joining_date":"2023-05-19","fees":"123123"},
+{"no":"9","membership_id":"G-0000000009","first_name":"mama","last_name":"mo","middle_initial":"f","mobile_number":"2147483647","date_of_birth":"1997-12-18","email":"mamam@gmail.com","street":"love","brgy":"115","city":"loving","gender":"male","joining_date":"2023-05-19","fees":"123123"},
+{"no":"10","membership_id":"G-0000000010","first_name":"dada","last_name":"mo","middle_initial":"d","mobile_number":"2147483647","date_of_birth":"1997-12-18","email":"malada@gmail.com","street":"love","brgy":"115","city":"loving","gender":"male","joining_date":"2023-05-19","fees":"123123"},
+{"no":"11","membership_id":"G-0000000011","first_name":"panget","last_name":" page","middle_initial":"g","mobile_number":"2147483647","date_of_birth":"2023-05-22","email":"@gmail.com","street":"#25 mami","brgy":"holdup","city":"caloocan","gender":"male","joining_date":"0000-00-00","fees":"0"},
+{"no":"12","membership_id":"G-0000000012","first_name":"juan","last_name":"tamad","middle_initial":"d","mobile_number":"2147483647","date_of_birth":"2001-03-12","email":"sample@gmail.com","street":"street","brgy":"brgy","city":"city","gender":"male","joining_date":"2023-05-22","fees":"123123"},
+{"no":"14","membership_id":"G-0000000001","first_name":"John Edrich","last_name":"Viray","middle_initial":"C","mobile_number":"2147483647","date_of_birth":"2001-12-12","email":"virayjohnedrich@gmail.com","street":"#75 Dau Street","brgy":"115","city":"Caloocan City","gender":"male","joining_date":"2023-01-24","fees":"3333333"},
+{"no":"15","membership_id":"G-0000000002","first_name":"John Edrich","last_name":"Viray","middle_initial":"C","mobile_number":"2147483647","date_of_birth":"2001-12-12","email":"virayjohnedrich@gmail.com","street":"#75 Dau Street","brgy":"115","city":"Caloocan City","gender":"male","joining_date":"2023-01-24","fees":"3333333"},
+{"no":"16","membership_id":"G-0000000003","first_name":"John Edrich","last_name":"Viray","middle_initial":"C","mobile_number":"2147483647","date_of_birth":"2001-12-12","email":"virayjohnedrich@gmail.com","street":"#75 Dau Street","brgy":"115","city":"Caloocan City","gender":"male","joining_date":"2023-03-24","fees":"3333333"}
+]
+}
+]
